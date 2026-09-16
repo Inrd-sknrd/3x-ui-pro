@@ -1,5 +1,5 @@
 #!/bin/bash
-#################### x-ui-pro-refactor @ github.com/Inrd-sknrd #############################
+#################### x-ui-pro-refactor @ github.com/mozaroc #############################
 [[ $EUID -ne 0 ]] && { echo "Run as root: sudo bash $0"; exit 1; }
 
 # ─── Output helpers ──────────────────────────────────────────────────────────
@@ -51,7 +51,7 @@ check_cpu
 
 # ─── Constants ───────────────────────────────────────────────────────────────
 XUIDB="/etc/x-ui/x-ui.db"
-GITHUB_RAW="https://raw.githubusercontent.com/Inrd-sknrd/3x-ui-pro/main"
+GITHUB_RAW="https://raw.githubusercontent.com/mozaroc/3x-ui-pro/main"
 FAKE_SITE_COUNT=50
 
 # ─── Default argument values ─────────────────────────────────────────────────
